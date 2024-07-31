@@ -3,7 +3,7 @@ Theme Name: Ministore
 Theme URI: 
 Author: 
 Author URI: 
-Description: Ministore is specially designed product packaged for Ministore by Moksha.
+Description: Ministore is specially designed navbar-brand packaged for Ministore by Moksha.
 Version: 
 */
 
@@ -588,6 +588,7 @@ h3.cart-title {
 .site-header {
     position: fixed;
     width: 100%;
+    height: 100px;
     z-index: 10;
     transition: background 0.3s ease-out;
 }
@@ -689,9 +690,9 @@ h3.cart-title {
   }
 }
 
-/* 4. Product
+/* 4. nav
 /*----------------------------------------------*/
-.product-store .product-card .cart-concern {
+.nav-ba-store .product-card .cart-concern {
     bottom: 75px;
     width: 100%;
     display: flex;
